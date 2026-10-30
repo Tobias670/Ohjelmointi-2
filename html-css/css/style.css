@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family:
+  Comic Sans MS,
+  Impact, sans-serif;
+  line-height: 1.3;
+  background-color: rgb(100, 135, 135);
+  color: black;
+  padding: 15px;
+}
+.yläpalkki{
+  display:flex;
+  justify-content: space-between;
+  background-color: rgb(103, 168, 180);
+}
+.pääsivu-kuva{
+  width:100%;
+  max-width:1300px;
+  height:auto;
+}
+.pääsivu-otsikko{
+  text-align: center;
+  margin-top: 150px;
+}
+  
+.pääsivu-teksti{
+  text-align: center;
+  margin: 10px 40px;
+}
+.logo{
+  display:flex;
+  height: 100px;
+  width: auto;
+  border:0px;
+  margin:0px;
+  padding:5px;
+}
+.sivut {
+  display: flex;
+  gap: 0px 50px;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.tuotteet{
+  display:flex;
+  justify-content: center;
+  gap:20px 30px;
+  max-width:100%;
+   justify-content: center;
+  align-items: center;
+}
+
+.tuotekuva{
+  background-color: rgb(74, 109, 97);
+  padding: 5px 10px;
+}
+.tuoteteksti{
+  padding:5px 20px;
+}
+.product-placeholder{
+  flex-direction: column;
+  display:flex;
+  width:100%;
+  max-width:1300px;
+  height:auto;
+  max-height: 75%;
+  text-align: center;
+}
+.contact-tiedot{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.kartta{
+    width: 600px;
+    height:auto;
+}
+.tiedot{
+ display: flex;
+  align-items: center;
+  flex: 1;
+}
