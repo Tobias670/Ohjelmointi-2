@@ -1,0 +1,9 @@
+let luku1=parseInt(prompt("Anna ensimmäinen kokonaisluku"))
+let luku2=parseInt(prompt("Anna toinen kokonaisluku"))
+let luku3=parseInt(prompt("Anna kolmas kokonaisluku"))
+let summa=luku1+luku2+luku3
+let tulo=luku1*luku2*luku3
+let keskiarvo=summa/3
+document.body.innerHTML+="Summa: "+summa+"<br>";
+document.body.innerHTML+="Tulo: "+tulo+"<br>";
+document.body.innerHTML+="Keskiarvo: "+keskiarvo.toFixed(2);
