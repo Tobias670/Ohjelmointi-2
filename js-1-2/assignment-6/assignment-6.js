@@ -5,7 +5,7 @@ if (valinta===true){
     const neliöjuuri=Math.sqrt(numero)
     document.body.innerHTML=neliöjuuri.toFixed(2)
     }
-    else{ document.body.innerHTML="The square root of a negative number is not defined"}
+    else{document.body.innerHTML="The square root of a negative number is not defined"}
     }
 else if (valinta===false)
     document.body.innerHTML=("The square root is not calculated.")

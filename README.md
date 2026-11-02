@@ -16,3 +16,5 @@ Tehdyt tehtävät:
 **Yhteensä 20p**
 
 ## JS-moduuli 3
+
+Tehdyt tehtävät:
